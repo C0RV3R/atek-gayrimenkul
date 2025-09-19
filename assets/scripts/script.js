@@ -173,7 +173,6 @@
         }
       }
 
-      // Başlangıç
       applyFilters();
       searchBox.addEventListener("input", applyFilters);
       filterType.addEventListener("change", applyFilters);
