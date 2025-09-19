@@ -223,3 +223,32 @@ main{min-height:calc(100vh - 300px)}
     border-radius: 18px;
   }
 }
+
+.seo-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 28px rgba(0,0,0,0.08);
+  padding: 28px;
+  text-align: center;
+  margin-top: 30px;
+}
+.seo-card h2 {
+  font-family: "Merriweather", serif;
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+  color: var(--brand-dark);
+}
+.seo-card p {
+  color: var(--muted);
+  font-size: 1rem;
+  margin: 10px 0;
+  line-height: 1.6;
+}
+.seo-card strong {
+  color: var(--brand);
+}
+.seo-card em {
+  color: var(--brand-dark);
+  font-style: normal;
+  font-weight: 600;
+}
