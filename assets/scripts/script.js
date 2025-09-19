@@ -1,4 +1,3 @@
-// script.js
 (() => {
   const getDataPath = () => {
     const p = window.location.pathname;
@@ -8,7 +7,6 @@
 
   const dataPath = getDataPath();
 
-  // ✅ Mobile Menu
   function attachMobileMenu(hamburgerId, menuId) {
     const btn = document.getElementById(hamburgerId);
     const menu = document.getElementById(menuId);
@@ -19,7 +17,6 @@
       menu.classList.toggle("show");
     });
 
-    // Menü dışına tıklayınca kapat
     document.addEventListener("click", (e) => {
       if (!menu.contains(e.target) && e.target !== btn) {
         menu.classList.remove("show");
@@ -32,7 +29,6 @@
   attachMobileMenu("hamburger3", "mobileMenu3");
   attachMobileMenu("hamburger4", "mobileMenu4");
 
-  // ✅ JSON'dan ilanları çek
   async function fetchListings() {
     try {
       const res = await fetch(dataPath, { cache: "no-store" });
@@ -51,11 +47,9 @@
     }[c]));
   }
 
-  // ✅ İlanları başlat
   async function initListings() {
     const listings = await fetchListings();
 
-    // SLIDER (anasayfa)
     const sliderEl = document.getElementById("listing-slider");
     if (sliderEl) {
       sliderEl.innerHTML = "";
@@ -75,7 +69,6 @@
           sliderEl.appendChild(slide);
         });
 
-        // Slider dots
         const dots = document.createElement("div");
         dots.className = "slider-dots";
         listings.forEach((_, idx) => {
@@ -104,7 +97,6 @@
       }
     }
 
-    // FEATURED (anasayfa)
     const featured = document.getElementById("featured-grid");
     if (featured) {
       featured.innerHTML = "";
@@ -128,7 +120,6 @@
       });
     }
 
-    // PORTFOLIO (portfolio.html)
     const portfolioGrid = document.getElementById("portfolio-grid");
     if (portfolioGrid) {
       const searchBox = document.getElementById("searchBox");
@@ -190,7 +181,6 @@
     }
   }
 
-  // ✅ İletişim formu
   function attachContactForm() {
     const form = document.getElementById("contactForm");
     if (!form) return;
@@ -221,7 +211,6 @@
   });
 })();
 
-// ✅ Telefon numarası göster/gönder
 function showNumber(btn, number) {
   if (!btn.dataset.shown) {
     btn.textContent = number;
