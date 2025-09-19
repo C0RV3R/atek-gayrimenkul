@@ -8,28 +8,31 @@
 
   const dataPath = getDataPath();
 
-  const attachMobileMenu = (hamburgerId, menuId) => {
+  // ✅ Mobile Menu
+  function attachMobileMenu(hamburgerId, menuId) {
     const btn = document.getElementById(hamburgerId);
     const menu = document.getElementById(menuId);
     if (!btn || !menu) return;
-    btn.addEventListener("click", () => {
-      const open = menu.getAttribute("aria-hidden") === "false";
-      menu.setAttribute("aria-hidden", String(!open));
-      menu.style.display = open ? "none" : "block";
+
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      menu.classList.toggle("show");
     });
+
+    // Menü dışına tıklayınca kapat
     document.addEventListener("click", (e) => {
       if (!menu.contains(e.target) && e.target !== btn) {
-        menu.setAttribute("aria-hidden", "true");
-        menu.style.display = "none";
+        menu.classList.remove("show");
       }
     });
-  };
+  }
 
   attachMobileMenu("hamburger", "mobileMenu");
   attachMobileMenu("hamburger2", "mobileMenu2");
   attachMobileMenu("hamburger3", "mobileMenu3");
   attachMobileMenu("hamburger4", "mobileMenu4");
 
+  // ✅ JSON'dan ilanları çek
   async function fetchListings() {
     try {
       const res = await fetch(dataPath, { cache: "no-store" });
@@ -44,14 +47,15 @@
 
   function esc(s) {
     return String(s || "").replace(/[&<>"']/g, c => ({
-      '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
     }[c]));
   }
 
+  // ✅ İlanları başlat
   async function initListings() {
     const listings = await fetchListings();
 
-    // === SLIDER (anasayfa) ===
+    // SLIDER (anasayfa)
     const sliderEl = document.getElementById("listing-slider");
     if (sliderEl) {
       sliderEl.innerHTML = "";
@@ -86,6 +90,7 @@
         const dotEls = sliderEl.querySelectorAll(".dot");
         let current = 0;
         let timer = setInterval(next, 4500);
+
         function next() { goTo((current + 1) % slides.length); }
         function goTo(i) {
           slides[current].classList.remove("active");
@@ -99,7 +104,7 @@
       }
     }
 
-    // === FEATURED (anasayfa) ===
+    // FEATURED (anasayfa)
     const featured = document.getElementById("featured-grid");
     if (featured) {
       featured.innerHTML = "";
@@ -123,7 +128,7 @@
       });
     }
 
-    // === PORTFOLIO (portfolio.html) ===
+    // PORTFOLIO (portfolio.html)
     const portfolioGrid = document.getElementById("portfolio-grid");
     if (portfolioGrid) {
       const searchBox = document.getElementById("searchBox");
@@ -133,7 +138,7 @@
 
       function parsePrice(p) {
         if (!p) return 0;
-        const num = (""+p).replace(/[^0-9]/g,'');
+        const num = ("" + p).replace(/[^0-9]/g, "");
         return Number(num) || 0;
       }
 
@@ -142,13 +147,14 @@
         const type = filterType.value;
         const sort = sortBy.value;
         let out = listings.filter(i => {
-          if (type !== 'all' && i.type !== type) return false;
-          if (q && !( (i.title||'').toLowerCase().includes(q) || (i.location||'').toLowerCase().includes(q) )) return false;
+          if (type !== "all" && i.type !== type) return false;
+          if (q && !((i.title || "").toLowerCase().includes(q) || (i.location || "").toLowerCase().includes(q)))
+            return false;
           return true;
         });
 
-        if (sort === 'price-asc') out.sort((a,b)=>parsePrice(a.price)-parsePrice(b.price));
-        if (sort === 'price-desc') out.sort((a,b)=>parsePrice(b.price)-parsePrice(a.price));
+        if (sort === "price-asc") out.sort((a, b) => parsePrice(a.price) - parsePrice(b.price));
+        if (sort === "price-desc") out.sort((a, b) => parsePrice(b.price) - parsePrice(a.price));
 
         portfolioGrid.innerHTML = "";
         if (!out.length) {
@@ -184,6 +190,7 @@
     }
   }
 
+  // ✅ İletişim formu
   function attachContactForm() {
     const form = document.getElementById("contactForm");
     if (!form) return;
@@ -213,3 +220,13 @@
     attachContactForm();
   });
 })();
+
+// ✅ Telefon numarası göster/gönder
+function showNumber(btn, number) {
+  if (!btn.dataset.shown) {
+    btn.textContent = number;
+    btn.dataset.shown = "true";
+  } else {
+    window.location.href = "tel:" + number.replace(/\s|\(|\)/g, "");
+  }
+}
