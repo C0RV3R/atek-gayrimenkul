@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Atek Gayrimenkul</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav container">
+      <div class="nav-left">
+        <a href="index.html" class="nav-link">Anasayfa</a>
+        <a href="assets/html/portfolio.html" class="nav-link">Portföyümüz</a>
+      </div>
+
+      <div class="brand">
+        <a href="index.html" class="brand-link" aria-label="Atek Gayrimenkul">
+          <img src="assets/img/atek.png" alt="Atek Gayrimenkul" class="brand-logo">
+        </a>
+      </div>
+
+      <div class="nav-right">
+        <a href="assets/html/team.html" class="nav-link">Ekibimiz</a>
+        <a href="assets/html/contact.html" class="nav-link">İletişim</a>
+      </div>
+
+      <button class="hamburger" aria-label="Menüyü aç" id="hamburger">☰</button>
+    </div>
+
+    <nav id="mobileMenu" class="mobile-menu" aria-hidden="true">
+      <a href="index.html">Anasayfa</a>
+      <a href="assets/html/portfolio.html">Portföyümüz</a>
+      <a href="assets/html/team.html">Ekibimiz</a>
+      <a href="assets/html/contact.html">İletişim</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img class="hero-bg" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80" alt="Modern konut dış cephe">
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content container">
+        <img src="assets/img/atek.png" alt="Atek Gayrimenkul" class="hero-logo">
+        <h1 class="hero-title">Hayalinizdeki Evi Bulmak Bizim İşimiz</h1>
+        <p class="hero-sub">Beşiktaş merkezli, İstanbul genelinde seçkin portföy. Güvenilir, şeffaf ve hızlı hizmet.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="assets/html/portfolio.html">Portföyü İncele</a>
+          <a class="btn btn-outline" href="assets/html/contact.html">Randevu & İletişim</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-head">
+        <h2 class="section-title">Öne Çıkan İlanlar</h2>
+        <a class="link-muted" href="assets/html/portfolio.html">Tümünü gör →</a>
+      </div>
+
+      <div id="listing-slider" class="listing-slider" aria-live="polite">
+      </div>
+    </section>
+
+    <section class="section light container">
+      <h2 class="section-title">Hizmetlerimiz</h2>
+      <div class="services-grid">
+        <article class="service-card">
+          <div class="service-icon">🏠</div>
+          <h3>Satılık Konut</h3>
+          <p>Evinizi ya da yatırımınızı en doğru şekilde değerlendirin.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">📋</div>
+          <h3>Kiralık Daire</h3>
+          <p>İhtiyacınıza uygun kiralık seçeneklerle hızlı eşleştirme.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">💼</div>
+          <h3>Ticari Gayrimenkul</h3>
+          <p>Ofis, dükkan ve yatırım odaklı doğru fırsatlar.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">🔍</div>
+          <h3>Değerleme & Danışmanlık</h3>
+          <p>Profesyonel değerleme ve yatırım danışmanlığı.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container">
+      <h2 class="section-title">Müşteri Yorumları</h2>
+      <div class="testimonials-grid">
+        <blockquote class="testimonial">
+          <p>"Atek Gayrimenkul ile evimiz 2 hafta içinde bulundu. Profesyonel ekip, hızlı dönüş."</p>
+          <cite>— M. Demir</cite>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p>"Satış sürecinde şeffaf iletişim ve doğru fiyatlandırma için teşekkürler."</p>
+          <cite>— S. Yılmaz</cite>
+        </blockquote>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="assets/img/atek.png" class="footer-logo" alt="Atek Gayrimenkul">
+        <p class="muted">Atek Gayrimenkul — Güvenilir ve hızlı hizmet.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Hızlı Linkler</h4>
+        <a href="index.html">Anasayfa</a>
+        <a href="assets/html/portfolio.html">Portföyümüz</a>
+        <a href="assets/html/team.html">Ekibimiz</a>
+        <a href="assets/html/contact.html">İletişim</a>
+      </div>
+      <div class="footer-contact">
+        <h4>İletişim</h4>
+        <p class="muted">Çeliktepe, Buhara Sk. No:9/A, 34403 Kağıthane, İstanbul</p>
+        <p class="muted">Tel: +90 532 422 82 19</p>
+        <p class="muted">info@atek-gayrimenkul.com</p>
+
+        <a href="https://atekgayrimenkul.sahibinden.com/" target="_blank" rel="noopener">
+        <img src="assets/img/sahibinden.png" alt="Sahibinden" class="sahibinden-logo">
+      </a>
+      </div>
+    </div>
+    <div class="container copyright">©2025 Atek Gayrimenkul - Tüm hakları saklıdır.</div>
+  </footer>
+
+  <script src="assets/scripts/script.js"></script>
+</body>
+</html>

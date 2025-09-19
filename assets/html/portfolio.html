@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Portföyümüz — Atek Gayrimenkul</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav container">
+      <div class="nav-left"><a class="nav-link" href="../../index.html">Anasayfa</a><a class="nav-link active" href="portfolio.html">Portföyümüz</a></div>
+      <div class="brand"><a href="../../index.html"><img src="../img/atek.png" class="brand-logo" alt="Atek"></a></div>
+      <div class="nav-right"><a class="nav-link" href="team.html">Ekibimiz</a><a class="nav-link" href="contact.html">İletişim</a></div>
+      <button class="hamburger" id="hamburger2">☰</button>
+    </div>
+    <nav id="mobileMenu2" class="mobile-menu" aria-hidden="true">
+      <a href="../../index.html">Anasayfa</a>
+      <a href="portfolio.html">Portföyümüz</a>
+      <a href="team.html">Ekibimiz</a>
+      <a href="contact.html">İletişim</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero small-hero">
+      <div class="container">
+        <h1 class="hero-small-title">Portföyümüz</h1>
+        <p class="muted">Tüm güncel ilanlarımız. Alt filtrelerle aramanızı daraltabilirsiniz.</p>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="controls">
+        <input id="searchBox" placeholder="İlan ara (örn: 2+1, Beşiktaş)" class="control-input">
+        <select id="filterType" class="control-input"><option value="all">Tümü</option><option value="satilik">Satılık</option><option value="kiralik">Kiralık</option></select>
+        <select id="sortBy" class="control-input"><option value="new">En yeni</option><option value="price-asc">Fiyat: Artan</option><option value="price-desc">Fiyat: Azalan</option></select>
+      </div>
+
+      <div id="portfolio-grid" class="featured-grid"></div>
+      <div id="noResults" class="muted" style="display:none;margin-top:18px">Kriterlere uygun ilan bulunamadı.</div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="../img/atek.png" class="footer-logo" alt="Atek">
+        <p class="muted">Atek Gayrimenkul — Güvenilir ve hızlı hizmet.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Hızlı Linkler</h4>
+        <a href="../../index.html">Anasayfa</a>
+        <a href="portfolio.html">Portföyümüz</a>
+        <a href="contact.html">İletişim</a>
+      </div>
+      <div class="footer-contact">
+        <h4>İletişim</h4>
+        <p class="muted">Çeliktepe, Buhara Sk. No:9/A, 34403 Kağıthane, İstanbul</p>
+        <p class="muted">+90 532 422 82 19</p>
+
+        <a href="https://atekgayrimenkul.sahibinden.com/" target="_blank" rel="noopener">
+        <img src="../img/sahibinden.png" alt="Sahibinden" class="sahibinden-logo">
+      </a>
+      </div>
+    </div>
+    <div class="container copyright">©2025 Atek Gayrimenkul - Tüm hakları saklıdır.</div>
+  </footer>
+
+  <script src="../scripts/script.js"></script>
+</body>
+</html>

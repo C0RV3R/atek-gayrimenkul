@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Kiralık 2+1 Daire - Beşiktaş",
+    "price": "25.500 TL",
+    "img": "https://via.placeholder.com/600x400?text=Beşiktaş+2+1",
+    "url": "https://atekgayrimenkul.sahibinden.com/ilan1"
+  },
+  {
+    "title": "Satılık 3+1 Daire - Kadıköy",
+    "price": "4.250.000 TL",
+    "img": "https://via.placeholder.com/600x400?text=Kadıköy+3+1",
+    "url": "https://atekgayrimenkul.sahibinden.com/ilan2"
+  },
+  {
+    "title": "Kiralık 1+1 Rezidans - Şişli",
+    "price": "20.500 TL",
+    "img": "https://via.placeholder.com/600x400?text=Şişli+1+1",
+    "url": "https://atekgayrimenkul.sahibinden.com/ilan3"
+  }
+]
