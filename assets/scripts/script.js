@@ -229,3 +229,5 @@ function showNumber(btn, number) {
     window.location.href = "tel:" + number.replace(/\s|\(|\)/g, "");
   }
 }
+
+// By Emre
