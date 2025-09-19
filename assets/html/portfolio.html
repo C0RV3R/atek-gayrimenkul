@@ -43,9 +43,29 @@
       </div>
     </section>
 
-    <section class="section">
-      <div class="container portfolio-grid" id="listing-container">
+    <!-- 🔍 Filtreleme Alanı -->
+    <section class="filters container">
+      <div class="filter-bar">
+        <input type="text" id="searchBox" placeholder="Arama yap (ör: İstanbul, 2+1)...">
+        <select id="filterType">
+          <option value="all">Tümü</option>
+          <option value="kiralık">Kiralık</option>
+          <option value="satılık">Satılık</option>
+        </select>
+        <select id="sortBy">
+          <option value="default">Varsayılan</option>
+          <option value="price-asc">Fiyat (Artan)</option>
+          <option value="price-desc">Fiyat (Azalan)</option>
+        </select>
       </div>
+    </section>
+
+    <!-- 🏠 Portföy Grid -->
+    <section class="section">
+      <div class="container portfolio-grid" id="portfolio-grid"></div>
+      <p id="noResults" style="display:none; text-align:center; color:#666; margin-top:2rem;">
+        ❌ Sonuç bulunamadı.
+      </p>
     </section>
   </main>
 
@@ -65,16 +85,14 @@
         <h4>İletişim</h4>
         <p class="muted">Çeliktepe, Buhara Sk. No:9/A, 34403 Kağıthane, İstanbul</p>
         <p class="muted">+90 532 422 82 19</p>
-
         <a href="https://atekgayrimenkul.sahibinden.com/" target="_blank" rel="noopener">
-        <img src="../img/sahibinden.png" alt="Sahibinden" class="sahibinden-logo">
-      </a>
+          <img src="../img/sahibinden.png" alt="Sahibinden" class="sahibinden-logo">
+        </a>
       </div>
     </div>
     <div class="container copyright">©2025 Atek Gayrimenkul - Tüm hakları saklıdır.</div>
   </footer>
 
   <script src="../scripts/script.js"></script>
-  <script src="../scripts/listings.js"></script>
 </body>
 </html>
