@@ -59,6 +59,8 @@
         listings.forEach((it, i) => {
           const slide = document.createElement("div");
           slide.className = "slide" + (i === 0 ? " active" : "");
+          slide.style.pointerEvents = i === 0 ? "auto" : "none";
+          slide.style.zIndex = i === 0 ? "2" : "1";
           slide.innerHTML = `
             <a href="${esc(it.link)}" target="_blank" rel="noopener" class="slide-link">
               <img src="${esc(it.image)}" alt="${esc(it.title)}">
@@ -85,12 +87,21 @@
         let timer = setInterval(next, 4500);
 
         function next() { goTo((current + 1) % slides.length); }
+
         function goTo(i) {
+          if (i === current) return;
           slides[current].classList.remove("active");
           dotEls[current].classList.remove("active");
+          slides[current].style.pointerEvents = "none";
+          slides[current].style.zIndex = "1";
+
           current = i;
+
           slides[current].classList.add("active");
           dotEls[current].classList.add("active");
+          slides[current].style.pointerEvents = "auto";
+          slides[current].style.zIndex = "2";
+
           clearInterval(timer);
           timer = setInterval(next, 4500);
         }
@@ -134,9 +145,9 @@
       }
 
       function applyFilters() {
-        const q = searchBox.value.trim().toLowerCase();
-        const type = filterType.value;
-        const sort = sortBy.value;
+        const q = (searchBox ? searchBox.value.trim().toLowerCase() : "");
+        const type = (filterType ? filterType.value : "all");
+        const sort = (sortBy ? sortBy.value : "");
         let out = listings.filter(i => {
           if (type !== "all" && i.type !== type) return false;
           if (q && !((i.title || "").toLowerCase().includes(q) || (i.location || "").toLowerCase().includes(q)))
@@ -149,9 +160,9 @@
 
         portfolioGrid.innerHTML = "";
         if (!out.length) {
-          noResults.style.display = "block";
+          if (noResults) noResults.style.display = "block";
         } else {
-          noResults.style.display = "none";
+          if (noResults) noResults.style.display = "none";
           out.forEach(it => {
             const card = document.createElement("article");
             card.className = "prop-card fade-in";
@@ -174,9 +185,9 @@
       }
 
       applyFilters();
-      searchBox.addEventListener("input", applyFilters);
-      filterType.addEventListener("change", applyFilters);
-      sortBy.addEventListener("change", applyFilters);
+      if (searchBox) searchBox.addEventListener("input", applyFilters);
+      if (filterType) filterType.addEventListener("change", applyFilters);
+      if (sortBy) sortBy.addEventListener("change", applyFilters);
     }
   }
 
