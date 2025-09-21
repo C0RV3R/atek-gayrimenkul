@@ -252,3 +252,28 @@ main{min-height:calc(100vh - 300px)}
   font-style: normal;
   font-weight: 600;
 }
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 28px;
+  background-color: #ffcc00;
+  color: #000;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e6b800;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.cta-icon {
+  height: 24px;
+  width: auto;
+}

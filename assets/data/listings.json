@@ -1,66 +1,306 @@
 [
   {
+    "id": "1272162834",
+    "title": "SÜPER FİYAT E5 E 3 DK TOPLU ULAŞIMA SIFIR NOKTA GENİŞ 3+1 120 M2",
+    "price": "5.750.000 TL",
+    "location": "İstanbul / Maltepe",
+    "image": "https://i0.shbdn.com/photos/16/28/34/x16_12721628347jc.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-satilik-super-fiyat-e5-e-3-dk-toplu-ulasima-sifir-nokta-genis-3-plus1-120-m2-1272162834/detay"
+  },
+  {
+    "id": "1271900955",
+    "title": "METROYA 2 DK MESAFEDE ARAKAT 2+1 KİRALIK DAİRE",
+    "price": "24.500 TL",
+    "location": "İstanbul / Kağıthane",
+    "image": "https://i0.shbdn.com/photos/90/09/55/x16_1271900955vv0.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-metroya-2-dk-mesafede-arakat-2-plus1-kiralik-daire-1271900955/detay"
+  },
+  {
+    "id": "1271971971",
+    "title": "METROYA 10 TOPLU ULAŞIMA 2 DK YENİ BİNA ARAKAT GENİŞ 2+1",
+    "price": "32.000 TL",
+    "location": "İstanbul / Kağıthane",
+    "image": "https://i0.shbdn.com/photos/97/19/71/x5_12719719715cj.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-metroya-10-toplu-ulasima-2-dk-yeni-bina-arakat-genis-2-plus1-1271971971/detay"
+  },
+  {
     "id": "1271395988",
-    "title": "Marmaray Toplu Ulaşıma Sıfır 1+0 Eşyalı Rezidans",
+    "title": "MARMARAY , TOPLU ULAŞIMA SIFIR NOKTA 1+0 EŞYALI KİRALIK REZİDANS",
     "price": "28.000 TL",
-    "location": "İstanbul / Maltepe / Cevizli Mah.",
+    "location": "İstanbul / Maltepe",
     "image": "https://i0.shbdn.com/photos/39/59/88/x16_12713959883le.jpg",
     "link": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-marmaray-toplu-ulasima-sifir-nokta-1-plus0-esyali-kiralik-rezidans-1271395988/detay"
   },
   {
-    "id": "1271066389",
-    "title": "Gencosman Durağına 3 dk Mesafede 2+1 Satılık Daire",
-    "price": "5.000.000 TL",
-    "location": "İstanbul / Kağıthane / Çeliktepe Mh.",
-    "image": "https://i0.shbdn.com/photos/06/63/89/x16_1271066389z29.jpg",
-    "link": "https://www.sahibinden.com/ilan/emlak-konut-satilik-gencosman-duragina-3-dk-mesafede-arakat-2-plus1-satilik-daire-1271066389/detay"
+    "id": "1271420447",
+    "title": "METRO,METROBÜS VE ADLİYEYE YÜRÜME 8 DAKİKA,2+1 KİRALIK DAİRE",
+    "price": "20.500 TL",
+    "location": "İstanbul / Kağıthane",
+    "image": "https://i0.shbdn.com/photos/42/04/47/12714204479gw.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-metro,metrobus-ve-adliyeye-yurume-8-dakika,2-plus1-kiralik-daire-1271420447/detay"
   },
   {
-    "id": "1270464241",
-    "title": "Yeni Bina Merkezi Konum 1+1 Satılık Daire",
-    "price": "3.050.000 TL",
-    "location": "İstanbul / Kağıthane / Yahya Kemal Mah.",
-    "image": "https://i0.shbdn.com/photos/46/42/41/x16_1270464241t6d.jpg",
-    "link": "https://www.sahibinden.com/ilan/emlak-konut-satilik-yeni-bina-uygun-fiyata-yuksek-kira-getirili-merkezi-konum-1-plus1-1270464241/detay"
+    "id": "1271408096",
+    "title": "ÇAĞLAYAN VATAN CADDESİNDE İŞLEK,240M² KİRALIK DÜKKAN,ATEK'TEN",
+    "price": "92.000 TL",
+    "location": "İstanbul / Kağıthane",
+    "image": "https://i0.shbdn.com/photos/40/80/96/12714080964l6.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-is-yeri-kiralik-caglayan-vatan-caddesinde-islek-240m²-kiralik-dukkan-atekten-1271408096/detay"
+  },
+  {
+    "id": "1271284847",
+    "title": "METRO METROBÜS VE ADLİYEYE YÜRÜME 8 DK 1+1 EŞYALI KİRALIK DAİRE",
+    "price": "45.000 TL",
+    "location": "İstanbul / Kağıthane",
+    "image": "https://i0.shbdn.com/photos/28/48/47/1271284847dlt.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-metro-metrobus-ve-adliyeye-yurume-8-dk-1-plus1-esyali-kiralik-daire-1271284847/detay"
+  },
+  {
+    "id": "1271363009",
+    "title": "AİLE BİNASINDA METROYA 10 DK MESAFEDE KISMİ EŞYALI 1 +1 KİRALIK",
+    "price": "13.750 TL",
+    "location": "İstanbul / Kağıthane",
+    "image": "https://i0.shbdn.com/photos/36/30/09/x5_1271363009949.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-aile-binasinda-metroya-10-dk-mesafede-kismi-esyali-1-plus1-kiralik-1271363009/detay"
   },
   {
     "id": "1271127035",
-    "title": "Site İçinde Full Eşyalı 2+1 Kiralık Daire",
+    "title": "SİTE İÇİNDE, FULL EŞYALI, 2 AYRI HAVUZLU, ARAKAT 2+1 KİRALIK",
     "price": "25.000 TL",
-    "location": "Sakarya / Karasu / Yalı Mh.",
+    "location": "Sakarya / Karasu",
     "image": "https://i0.shbdn.com/photos/12/70/35/x16_1271127035ljn.jpg",
     "link": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-site-icinde-full-esyali-2-ayri-havuzlu-arakat-2-plus1-kiralik-1271127035/detay"
   },
   {
+    "id": "1271066389",
+    "title": "GENÇOSMAN DURAGINA 3 DK MESAFEDE ARAKAT 2+1 SATILIK DAİRE",
+    "price": "5.000.000 TL",
+    "location": "İstanbul / Kağıthane",
+    "image": "https://i0.shbdn.com/photos/06/63/89/x16_1271066389z29.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-satilik-gencosman-duragina-3-dk-mesafede-arakat-2-plus1-satilik-daire-1271066389/detay"
+  },
+  {
+    "id": "1271312193",
+    "title": "MÜSTAKİL GİRİŞ 1.KAT 1+1 KİRALIK DAİRE AİLE BİNASI",
+    "price": "16.000 TL",
+    "location": "İstanbul / Kağıthane",
+    "image": "https://i0.shbdn.com/photos/31/21/93/x16_12713121932t5.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-mustakil-giris-1-kat-1-plus1-kiralik-daire-aile-binasi-1271312193/detay"
+  },
+  {
+    "id": "1270740692",
+    "title": "FATİH ANA CADDEYE SIFIR NOKTADA GENİŞ 3+1 KİRALIK DAİRE",
+    "price": "26.000 TL",
+    "location": "İstanbul / Fatih",
+    "image": "https://i0.shbdn.com/photos/74/06/92/x16_1270740692hf9.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-fatih-ana-caddeye-sifir-noktada-genis-3-plus1-kiralik-daire-1270740692/detay"
+  },
+  {
+    "id": "1270587309",
+    "title": "GÜLTEPE ANA CADDE VE OTOBÜS DURAĞI YÜRÜME 5 DK 2+1 KİRALIK DAİRE",
+    "price": "21.000 TL",
+    "location": "İstanbul / Kağıthane",
+    "image": "https://i0.shbdn.com/photos/58/73/09/x16_1270587309ha5.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-gultepe-ana-cadde-ve-otobus-duragi-yurume-5-dk-2-plus1-kiralik-daire-1270587309/detay"
+  },
+  {
+    "id": "1270553175",
+    "title": "ATATÜRK OTO SANAYİ İÇİNDE BÜTÜN EKİPMANLARIYLA DEVREN KİRALIK",
+    "price": "2.750.000 TL",
+    "location": "İstanbul / Sarıyer",
+    "image": "https://i0.shbdn.com/photos/55/31/75/x16_1270553175h7k.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-is-kiralik-ataturk-oto-sanayi-icinde-butun-ekipmanlariyla-devren-kiralik-1270553175/detay"
+  },
+  {
+    "id": "1270654790",
+    "title": "EMNİYETEVLERİNDE METROYA 3 DAKİKA GENİŞ 2+1 YÜKSEK GİRİŞ",
+    "price": "37.000 TL",
+    "location": "İstanbul / Kağıthane",
+    "image": "https://i0.shbdn.com/photos/65/47/90/x16_1270654790amg.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-emniyetevlerinde-metroya-3-dakika-genis-2-plus1-yuksek-giris-1270654790/detay"
+  },
+  {
+    "id": "1270464241",
+    "title": "YENİ BİNA UYGUN FİYATA YÜKSEK KİRA GETİRİLİ MERKEZİ KONUM 1+1",
+    "price": "3.050.000 TL",
+    "location": "İstanbul / Kağıthane",
+    "image": "https://i0.shbdn.com/photos/46/42/41/x16_1270464241t6d.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-satilik-yeni-bina-uygun-fiyata-yuksek-kira-getirili-merkezi-konum-1-plus1-1270464241/detay"
+  },
+  {
+    "id": "1270429039",
+    "title": "120 M2 KİRALIK DÜKKAN DEPO BÜYÜK ARAÇLAR KAPIYA KADAR YANAŞABİLİ",
+    "price": "25.000 TL",
+    "location": "İstanbul / Sarıyer",
+    "image": "https://i0.shbdn.com/photos/42/90/39/x16_1270429039wdc.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-is-kiralik-120-m2-kiralik-dukkande­po-buyuk-araclar-kapiya-kadar-yanasabilir-1270429039/detay"
+  },
+  {
+    "id": "1270406622",
+    "title": "MERKEZİ KONUMDA,YENİ BİNA,ARAKAT 3+1 KİRALIK DAİRE",
+    "price": "15.000 TL",
+    "location": "Artvin / Kemalpaşa",
+    "image": "https://i0.shbdn.com/photos/40/66/22/x16_127040662200s.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-merkezi-konumda-yeni-bina-arakat-3-plus1-kiralik-daire-1270406622/detay"
+  },
+  {
+    "id": "1270308838",
+    "title": "ÜSKÜDAR BULGURLU AİLE BİNASI 3+1 KİRALIK DAİRE",
+    "price": "32.000 TL",
+    "location": "İstanbul / Üsküdar",
+    "image": "https://i0.shbdn.com/photos/30/88/38/x16_1270308838bko.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-uskudar-bulgurlu-aile-binasi-3-plus1-kiralik-daire-1270308838/detay"
+  },
+  {
+    "id": "1270283928",
+    "title": "ARMUTLU FSM MAHALLESİNDE 3+1KİRALIK DAİRE",
+    "price": "35.000 TL",
+    "location": "İstanbul / Sarıyer",
+    "image": "https://i0.shbdn.com/photos/28/39/28/x16_1270283928zvx.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-armutlu-fsm-mahallesinde-3+1kiralik-daire-1270283928/detay"
+  },
+  {
+    "id": "1270255091",
+    "title": "ALTKAT 3+1 ÜST 1+1 AYRI AYRI İKİ DAİRE YENİ BİNA E5'E 5 DK",
+    "price": "5.650.000 TL",
+    "location": "İstanbul / Pendik",
+    "image": "https://i0.shbdn.com/photos/25/50/91/x16_1270255091m80.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-satilik-altkat-3plus1-ust-1plus1-ayri-ayri-iki-daire-yeni-bina-e5e-5-dk-1270255091/detay"
+  },
+  {
+    "id": "1270248308",
+    "title": "METROYA 10 DAKİKA MESAFEDE,GENİŞ 2+1 KİRALIK DAİRE,",
+    "price": "25.500 TL",
+    "location": "İstanbul / Kağıthane",
+    "image": "https://i0.shbdn.com/photos/24/83/08/x16_1270248308m7w.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-metroya-10-dakika-mesafede,genis-2plus1-kiralik-daire-1270248308/detay"
+  },
+  {
+    "id": "1270297534",
+    "title": "YATIRIMA OTURUMA UYGUN YENİ BİNA ASANSÖRLÜ 2+1SATILIK DAİRE",
+    "price": "4.875.000 TL",
+    "location": "İstanbul / Kağıthane",
+    "image": "https://i0.shbdn.com/photos/29/75/34/x16_1270297534zdu.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-satilik-yatırima-oturuma-uygun-yeni-bina-asansörlü-2plus1satilik-daire-1270297534/detay"
+  },
+  {
+    "id": "1270264022",
+    "title": "YALI MAHALLESİNDE SİTE İÇİNDE FULL EŞYALI 2+1 KİRALIK DAİRE,",
+    "price": "22.000 TL",
+    "location": "Sakarya / Karasu",
+    "image": "https://i0.shbdn.com/photos/26/40/22/x16_1270264022tjn.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-yali-mahallesinde-site-icinde-full-esyali-2plus1-kiralik-daire-1270264022/detay"
+  },
+  {
+    "id": "1270035533",
+    "title": "SEYRANTEPE METRO VE TOPLU ULAŞIMA 7 DAKİKA YENİ BİNA GENİŞ 1+1",
+    "price": "3.650.000 TL",
+    "location": "İstanbul / Kağıthane",
+    "image": "https://i0.shbdn.com/photos/03/55/33/x16_1270035533vl2.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-satilik-seyrantepe-metro-ve-toplu-ulasima-7-dakika-yeni-bina-genis-1plus1-1270035533/detay"
+  },
+  {
+    "id": "1269969670",
+    "title": "METROBÜS VE CEMİL TAŞÇIOĞLU HASTANESİNE YÜRÜME 3+1 SATILIK DAİRE",
+    "price": "4.750.000 TL",
+    "location": "İstanbul / Kağıthane",
+    "image": "https://i0.shbdn.com/photos/96/96/70/x16_1269969670sxk.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-satilik-metrobus-ve-cemil‑tascioglu-hastanesine-yurume-3plus1-satilik-daire-1269969670/detay"
+  },
+  {
     "id": "1269944497",
-    "title": "Metro ve Metrobüse Yakın 2+1 Dubleks Satılık Daire",
+    "title": "METRO VE METROBÜSE YÜRÜME MESAFESİNDE SATILIK 2+1 DUBLEX DAİRE",
     "price": "6.500.000 TL",
-    "location": "İstanbul / Kağıthane / Çağlayan Mh.",
-    "image": "https://i0.shbdn.com/photos/94/44/97/x16_1269944497mdy.jpg",
-    "link": "https://www.sahibinden.com/ilan/emlak-konut-satilik-metro-ve-metrobuse-yurume-mesafesinde-satilik-2-plus1-dublex-daire-1269944497/detay"
+    "location": "İstanbul / Kağıthane",
+    "image": "https://i0.shbdn.com/photos/94/44/97/x16_1269944497fxw.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-satilik-metro-ve-metro­buse-yurume-mesafesinde-satilik-2-plus1-dubleks-daire-1269944497/detay"
   },
   {
     "id": "1269912435",
-    "title": "Yeni Binada Metro, Metrobüs ve Adliye’ye 7 Dakika 2+1 Kiralık",
-    "price": "36.000 TL",
-    "location": "İstanbul / Kağıthane / Gürsel Mh.",
-    "image": "https://i0.shbdn.com/photos/91/24/35/big_126991243573j.jpg",
-    "link": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-yeni-binada,metro,metrobus-ve-adliye-ye-7-dakika,2-plus1-kiralik-1269912435/detay"
+    "title": "YENİ BİNADA,METRO,METROBÜS VE ADLİYE'YE 7 DAKİKA,2+1 KİRALIK,",
+    "price": "33.000 TL",
+    "location": "İstanbul / Kağıthane",
+    "image": "https://i0.shbdn.com/photos/91/24/35/x5_1269912435v66.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-yeni-binada,metro,metrobus-ve-adliye’ye-7-dakika,2-plus1-kiralik-1269912435/detay"
   },
   {
     "id": "1269863010",
-    "title": "Bütün Ekipmanlarıyla Devren Kiralık Motorsiklet Tamirhanesi",
+    "title": "BÜTÜN EKİPMANLARIYLA DEVREN KİRALIK MOTORSİKLET TAMİRHANESİ,",
     "price": "230.000 TL",
-    "location": "İstanbul / Kağıthane / Çeliktepe Mh.",
+    "location": "İstanbul / Kağıthane",
     "image": "https://i0.shbdn.com/photos/86/30/10/x16_1269863010pyw.jpg",
-    "link": "https://www.sahibinden.com/ilan/emlak-is-yeri-devren-kiralik-butun-ekipmanlariyla-devren-kiralik-motorsiklet-tamirhanesi-1269863010/detay"
+    "link": "https://www.sahibinden.com/ilan/emlak-is-kiralik-butun-ekipmanlariyla-devren-kiralik-motorsiklet-tamirhanesi-1269863010/detay"
+  },
+  {
+    "id": "1270418034",
+    "title": "METROYA 8 DAKİKA,UYGUN FİYATA 1+1 KİRALIK DAİRE,",
+    "price": "16.000 TL",
+    "location": "İstanbul / Kağıthane",
+    "image": "https://i0.shbdn.com/photos/41/80/34/x16_1270418034bg6.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-metroya-8-dakika,uygun-fiyata-1plus1-kiralik-daire-1270418034/detay"
   },
   {
     "id": "1270344376",
-    "title": "Metroya 3 dk Mesafede 2+1 Arakat Kiralık Daire",
-    "price": "29.000 TL",
-    "location": "İstanbul / Kağıthane / Çeliktepe Mh.",
-    "image": "https://i0.shbdn.com/photos/34/43/76/x16_1270344376lpk.jpg",
+    "title": "METROYA 3 DK MESAFEDE 2+1 ARAKAT KİRALIK DAİRE",
+    "price": "28.000 TL",
+    "location": "İstanbul / Kağıthane",
+    "image": "https://i0.shbdn.com/photos/34/43/76/x5_1270344376lpk.jpg",
     "link": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-metroya-3-dk-mesafede-2-plus1-arakat-kiralik-daire-1270344376/detay"
+  },
+  {
+    "id": "1270275377",
+    "title": "KADIN MÜŞTERİYE UYGUN KİRALIK 2+1 EŞYALI DAİRE",
+    "price": "23.500 TL",
+    "location": "İstanbul / Kağıthane",
+    "image": "https://i0.shbdn.com/photos/27/53/77/x16_12702753774g1.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-bayana-uygun-kiralik-2plus1-esyali-daire-1270275377/detay"
+  },
+  {
+    "id": "1270027694",
+    "title": "METROYA 10 TOPLU ULAŞIMA 4 DAKİKA BEKAR ÖĞRENCİYE 2+1",
+    "price": "17.500 TL",
+    "location": "İstanbul / Kağıthane",
+    "image": "https://i0.shbdn.com/photos/02/76/94/x16_1270027694e2p.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-metroya-10-toplu-ulasima-4-dakika-bekar-ogrenciye-2plus1-1270027694/detay"
+  },
+  {
+    "id": "1269993635",
+    "title": "MÜSTAKİL GİRİŞ 1+0 KİRALIK STÜDYO DAİRE",
+    "price": "13.750 TL",
+    "location": "İstanbul / Kağıthane",
+    "image": "https://i0.shbdn.com/photos/99/36/35/x16_126999363596y.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-mustakil-giris-1plus0-kiralik-studyo-daire-1269993635/detay"
+  },
+  {
+    "id": "1269908082",
+    "title": "METROYA 4 DAKİKA,CADDE ÜZERİ,GENİŞ 2+1 KİRALIK DAİRE,",
+    "price": "35.000 TL",
+    "location": "İstanbul / Kağıthane",
+    "image": "https://i0.shbdn.com/photos/90/80/82/x16_1269908082sdo.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-metroya-4-dakika,cadde-uzeri,genis-2plus1-kiralik-daire-1269908082/detay"
+  },
+  {
+    "id": "1269907321",
+    "title": "GENÇOSMAN DURAGINA 3 DK MESAFEDE 2+1 KİRALIK DAİRE ARAKAT",
+    "price": "28.500 TL",
+    "location": "İstanbul / Kağıthane",
+    "image": "https://i0.shbdn.com/photos/90/73/21/x16_1269907321jk7.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-gencosman-duragina-3-dk-mesafede-2plus1-kiralik-daire-arakat-1269907321/detay"
+  },
+  {
+    "id": "1271845819",
+    "title": "OTOBÜS MİNİBÜS DURAKLARINA YAKIN AİLE BİNASI ARAKAT 2+1KİRALIK",
+    "price": "25.500 TL",
+    "location": "İstanbul / Kağıthane",
+    "image": "https://i0.shbdn.com/photos/84/58/19/x16_1271845819dei.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-otobus-minibus-duraklarina-yakin-aile-binasi-arakat-2plus1kiralik-1271845819/detay"
+  },
+  {
+    "id": "1269895217",
+    "title": "METROYA 10 DAKİKA YÜRÜME MESAFESİNDE,ARAKAT 2+1 KİRALIK DAİRE",
+    "price": "25.000 TL",
+    "location": "İstanbul / Kağıthane",
+    "image": "https://i0.shbdn.com/photos/89/52/17/x5_126989521781w.jpg",
+    "link": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-metroya-10-dakika-yurume-mesafesinde,arakat-2plus1-kiralik-daire-1269895217/detay"
   }
 ]
