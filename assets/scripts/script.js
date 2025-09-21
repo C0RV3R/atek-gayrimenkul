@@ -108,28 +108,32 @@
       }
     }
 
-    const featured = document.getElementById("featured-grid");
-    if (featured) {
-      featured.innerHTML = "";
-      listings.slice(0, 6).forEach(it => {
-        const card = document.createElement("article");
-        card.className = "prop-card fade-in";
-        card.innerHTML = `
-          <a href="${esc(it.link)}" target="_blank" rel="noopener" class="prop-link">
-            <div class="prop-media"><img src="${esc(it.image)}" alt="${esc(it.title)}"></div>
-            <div class="prop-content">
-              <h3 class="prop-title">${esc(it.title)}</h3>
-              <div class="prop-meta">${esc(it.location || "")}</div>
-              <div class="prop-footer">
-                <div class="prop-actions"><a class="link-muted" href="${esc(it.link)}" target="_blank">Detay</a></div>
-                <div class="prop-price">${esc(it.price)}</div>
-              </div>
+const featured = document.getElementById("featured-grid");
+if (featured) {
+  featured.innerHTML = "";
+  listings.slice(0, 6).forEach(it => {
+    const card = document.createElement("article");
+    card.className = "prop-card fade-in";
+    card.innerHTML = `
+      <a href="${esc(it.link)}" target="_blank" rel="noopener" class="prop-link">
+        <div class="prop-media"><img src="${esc(it.image)}" alt="${esc(it.title)}"></div>
+        <div class="prop-content">
+          <h3 class="prop-title">${esc(it.title)}</h3>
+          <div class="prop-meta">${esc(it.location || "")}</div>
+          <div class="prop-footer">
+            <div class="prop-actions">
+              <a href="${esc(it.link)}" target="_blank" rel="noopener">
+                <img src="../img/sahibinden.png" alt="Sahibinden" style="height:24px; width:auto;">
+              </a>
             </div>
-          </a>
-        `;
-        featured.appendChild(card);
-      });
-    }
+            <div class="prop-price">${esc(it.price)}</div>
+          </div>
+        </div>
+      </a>
+    `;
+    featured.appendChild(card);
+  });
+}
 
     const portfolioGrid = document.getElementById("portfolio-grid");
     if (portfolioGrid) {
@@ -173,7 +177,11 @@
                   <h3 class="prop-title">${esc(it.title)}</h3>
                   <div class="prop-meta">${esc(it.location || "")} · ${esc(it.type || "")}</div>
                   <div class="prop-footer">
-                    <div class="prop-actions"><a class="link-muted" href="${esc(it.link)}" target="_blank">Detay</a></div>
+                    <div class="prop-actions">
+                      <a href="${esc(it.link)}" target="_blank" rel="noopener">
+                        <img src="../img/sahibinden.png" alt="Sahibinden" style="height:24px; width:auto;">
+                      </a>
+                    </div>
                     <div class="prop-price">${esc(it.price)}</div>
                   </div>
                 </div>
@@ -182,7 +190,6 @@
             portfolioGrid.appendChild(card);
           });
         }
-      }
 
       applyFilters();
       if (searchBox) searchBox.addEventListener("input", applyFilters);
